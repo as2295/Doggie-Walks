@@ -1,0 +1,136 @@
+.home {
+  align-items: center;
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.overlap-group-container-2 {
+  align-items: flex-start;
+  display: flex;
+  gap: 20px;
+  margin-left: 4.0px;
+  margin-top: 50px;
+  min-width: 1196px;
+}
+
+.overlap-group2-1 {
+  align-items: flex-end;
+  background-color: var(--biscay);
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  min-height: 550px;
+  padding: 25px 12px;
+  width: 586px;
+}
+
+.h1 {
+  align-self: center;
+  color: var(--white);
+  font-family: var(--font-family-sansita);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 1px;
+  min-height: 48px;
+  width: 516px;
+}
+
+.flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 22px;
+  height: 432px;
+  min-width: 543px;
+}
+
+.p1 {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 431px;
+  width: 269px;
+}
+
+.walker {
+  align-self: flex-end;
+  display: block;
+  height: 431px;
+  opacity: 0;
+  width: 252px;
+}
+
+.walker.animate-enter {
+  animation: animate-enter-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+.overlap-group-2 {
+  height: 560px;
+  position: relative;
+  width: 588px;
+}
+
+.container2 {
+  background-color: var(--biscay);
+  border-radius: 15px;
+  height: 550px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 588px;
+}
+
+.p2 {
+  left: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 43px;
+  width: 521px;
+}
+
+.forestdog {
+  display: block;
+  height: 221px;
+  left: 50px;
+  object-fit: cover;
+  opacity: 0;
+  position: absolute;
+  top: 321px;
+  width: 488px;
+}
+
+.forestdog.animate-enter1 {
+  animation: animate-enter1-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes animate-enter1-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+@keyframes animate-enter-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+

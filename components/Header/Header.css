@@ -1,0 +1,42 @@
+.header {
+  align-items: flex-start;
+  display: flex;
+  height: 209px;
+  left: 0;
+  min-width: 1457px;
+  position: absolute;
+  top: 0;
+}
+
+.header.header-1 {
+  left: unset;
+  margin-right: 3.0px;
+  margin-top: -19px;
+  position: relative;
+  top: unset;
+}
+
+.header.header-2,
+.header.header-3 {
+  left: unset;
+  margin-right: 1.0px;
+  margin-top: -4px;
+  position: relative;
+  top: unset;
+}
+
+.header.header-4 {
+  left: unset;
+  margin-top: -4px;
+  position: relative;
+  top: unset;
+}
+
+.header.header-5 {
+  left: unset;
+  margin-right: -9px;
+  margin-top: -4px;
+  position: relative;
+  top: unset;
+}
+

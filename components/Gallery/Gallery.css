@@ -1,0 +1,232 @@
+.gallery-1 {
+  align-items: center;
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 489px;
+  margin-right: 7.0px;
+  margin-top: 42px;
+  min-width: 1205px;
+}
+
+.flex-col {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 89px;
+  min-height: 489px;
+  width: 205px;
+}
+
+.blacklab,
+.browndog,
+.whitedog,
+.puppy,
+.germanshepheard {
+  display: block;
+  height: 200px;
+  object-fit: cover;
+  opacity: 0;
+  transform: rotate(25deg);
+  width: 200px;
+}
+
+.blacklab.animate-enter2 {
+  animation: animate-enter2-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: rotate(25deg);
+}
+
+.walker-1 {
+  display: block;
+  height: 200px;
+  margin-right: 4px;
+  object-fit: cover;
+  opacity: 0;
+  transform: rotate(25deg);
+  width: 201px;
+}
+
+.walker-1.animate-enter6 {
+  animation: animate-enter6-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: rotate(25deg);
+}
+
+.flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 89px;
+  margin-left: 71px;
+  min-height: 489px;
+  width: 200px;
+}
+
+.browndog.animate-enter3 {
+  animation: animate-enter3-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: rotate(25deg);
+}
+
+.whitedog.animate-enter7 {
+  animation: animate-enter7-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: rotate(25deg);
+}
+
+.flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 89px;
+  margin-left: 163px;
+  min-height: 489px;
+  width: 200px;
+}
+
+.puppy.animate-enter4 {
+  animation: animate-enter4-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: rotate(25deg);
+}
+
+.germanshepheard.animate-enter8 {
+  animation: animate-enter8-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: rotate(25deg);
+}
+
+.flex-col-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 89px;
+  margin-left: 160px;
+  min-height: 489px;
+  width: 206px;
+}
+
+.corgi {
+  display: block;
+  height: 200px;
+  margin-right: 6.0px;
+  object-fit: cover;
+  opacity: 0;
+  transform: rotate(25deg);
+  width: 200px;
+}
+
+.corgi.animate-enter5 {
+  animation: animate-enter5-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: rotate(25deg);
+}
+
+.dogwood {
+  display: block;
+  height: 200px;
+  margin-left: 6.0px;
+  object-fit: cover;
+  opacity: 0;
+  transform: rotate(25deg);
+  width: 200px;
+}
+
+.dogwood.animate-enter9 {
+  animation: animate-enter9-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: rotate(25deg);
+}
+
+@keyframes animate-enter4-frames {
+  from{opacity: 0;
+transform: rotate(25deg);
+}
+to{opacity: 1;
+transform: rotate(0);
+}
+}
+
+@keyframes animate-enter5-frames {
+  from{opacity: 0;
+transform: rotate(25deg);
+}
+to{opacity: 1;
+transform: rotate(0);
+}
+}
+
+@keyframes animate-enter8-frames {
+  from{opacity: 0;
+transform: rotate(25deg);
+}
+to{opacity: 1;
+transform: rotate(0);
+}
+}
+
+@keyframes animate-enter3-frames {
+  from{opacity: 0;
+transform: rotate(25deg);
+}
+to{opacity: 1;
+transform: rotate(0);
+}
+}
+
+@keyframes animate-enter7-frames {
+  from{opacity: 0;
+transform: rotate(25deg);
+}
+to{opacity: 1;
+transform: rotate(0);
+}
+}
+
+@keyframes animate-enter2-frames {
+  from{opacity: 0;
+transform: rotate(25deg);
+}
+to{opacity: 1;
+transform: rotate(0);
+}
+}
+
+@keyframes animate-enter9-frames {
+  from{opacity: 0;
+transform: rotate(25deg);
+}
+to{opacity: 1;
+transform: rotate(0);
+}
+}
+
+@keyframes animate-enter6-frames {
+  from{opacity: 0;
+transform: rotate(25deg);
+}
+to{opacity: 1;
+transform: rotate(0);
+}
+}
+

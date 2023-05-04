@@ -1,0 +1,75 @@
+.about-us {
+  align-items: center;
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.overlap-group-container-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 286px;
+  margin-left: 116.0px;
+  margin-top: 33px;
+  min-width: 1130px;
+}
+
+.overlap-group-3 {
+  background-color: var(--biscay);
+  border-radius: 15px;
+  height: 550px;
+  position: relative;
+  width: 421px;
+}
+
+.p3 {
+  left: 31px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 35px;
+  width: 357px;
+}
+
+.bulldog {
+  cursor: pointer;
+  height: 310px;
+  left: 31px;
+  object-fit: cover;
+  position: absolute;
+  top: 192px;
+  transition: all 0.2s ease;
+  width: 335px;
+}
+
+.bulldog:hover,
+.kingcharles:hover {
+  transform: scale(0.9); 
+}
+
+.p4 {
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+  width: 373px;
+}
+
+.kingcharles {
+  cursor: pointer;
+  height: 310px;
+  left: 33px;
+  object-fit: cover;
+  position: absolute;
+  top: 192px;
+  transition: all 0.2s ease;
+  width: 366px;
+}
+

@@ -1,0 +1,168 @@
+.meet-the-team {
+  align-items: flex-end;
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.flex-row-2 {
+  align-items: flex-end;
+  display: flex;
+  height: 534px;
+  margin-right: 15px;
+  margin-top: 34px;
+  min-width: 1372px;
+}
+
+.rebecca {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  min-height: 534px;
+  width: 302px;
+}
+
+.rebecca-harrison {
+  cursor: pointer;
+  height: 200px;
+  margin-right: 23.94px;
+  object-fit: cover;
+  transition: all 0.2s ease;
+  width: 194px;
+}
+
+.rebecca-harrison:hover,
+.joanna-davies:hover,
+.lori-hanson:hover,
+.gary-simpson:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+
+.overlap-group2-2 {
+  align-items: flex-start;
+  background-color: var(--biscay);
+  border-radius: 15px;
+  display: flex;
+  height: 300px;
+  justify-content: flex-end;
+  margin-right: 2.0px;
+  min-width: 300px;
+  padding: 30px 39px;
+}
+
+.h3 {
+  color: var(--white-2);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 200px;
+  width: 208px;
+}
+
+.joanna {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  margin-left: 65px;
+  min-height: 534px;
+  width: 302px;
+}
+
+.joanna-davies,
+.gary-simpson {
+  cursor: pointer;
+  height: 200px;
+  margin-right: 2.0px;
+  object-fit: cover;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+
+.overlap-group3-1 {
+  align-items: flex-start;
+  background-color: var(--biscay);
+  border-radius: 15px;
+  display: flex;
+  height: 300px;
+  justify-content: flex-end;
+  margin-right: 2.0px;
+  min-width: 300px;
+  padding: 19px 26px;
+}
+
+.h2 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 244px;
+  width: 240px;
+}
+
+.lori {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-left: 65px;
+  min-height: 526px;
+  width: 302px;
+}
+
+.lori-hanson {
+  cursor: pointer;
+  height: 200px;
+  margin-right: 28.0px;
+  object-fit: cover;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+
+.overlap-group-5 {
+  align-items: flex-start;
+  background-color: var(--biscay);
+  border-radius: 15px;
+  display: flex;
+  height: 300px;
+  margin-right: 2.0px;
+  min-width: 300px;
+  padding: 23px 46px;
+}
+
+.h5,
+.h4 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 200px;
+  width: 200px;
+}
+
+.gary {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-left: 34px;
+  min-height: 526px;
+  width: 302px;
+}
+
+.overlap-group1-3 {
+  align-items: flex-start;
+  background-color: var(--biscay);
+  border-radius: 15px;
+  display: flex;
+  height: 300px;
+  margin-right: 2.0px;
+  min-width: 300px;
+  padding: 19px 22px;
+}
+

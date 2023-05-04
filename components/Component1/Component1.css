@@ -1,0 +1,37 @@
+.component4 {
+  align-items: flex-start;
+  background-color: var(--burnt-sienna);
+  border-radius: 15px;
+  display: flex;
+  height: 91px;
+  justify-content: flex-end;
+  margin-left: 1px;
+  min-width: 295px;
+  padding: 13px 29px;
+}
+
+.ormskirk-doggie-walk {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 63px;
+  width: 233px;
+}
+
+.component4.component,
+.component4.component-1,
+.component4.component-2,
+.component4.component-3,
+.component4.component-4,
+.component4.component-5 {
+  margin-left: 65px;
+}
+
+.component4.component1,
+.component4.component1-1,
+.component4.component1-2,
+.component4.component1-3,
+.component4.component1-4,
+.component4.component1-5 {
+  margin-left: 90px;
+}
+

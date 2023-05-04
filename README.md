@@ -1,0 +1,1 @@
+This is a react website for a dog walking site. If you cannot open this website locally, open a terminal and run npm install. Once npm has installed, run the following command npm start to load the website. 

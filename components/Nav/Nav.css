@@ -1,0 +1,106 @@
+.nav {
+  align-items: flex-end;
+  background-image: url(/static/img/nav-bar.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 65px;
+  margin-top: 189px;
+  min-width: 1440px;
+  padding: 11px 44.0px;
+}
+
+.navbar-link-container {
+  height: 30px;
+  position: relative;
+  width: 1327px;
+}
+
+.navbar-link-about-us {
+  cursor: pointer;
+  left: 185px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 195px;
+}
+
+.navbar-link-about-us:hover,
+.navbar-link-place:hover,
+.navbar-link-meet-the-team:hover,
+.navbar-link-pricing-cost:hover,
+.navbar-link-gallery:hover,
+.navbar-link-contact-us:hover {
+  transform: scale(1.1);
+}
+
+.navbar-link-place {
+  cursor: pointer;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 209px;
+}
+
+.navbar-link-meet-the-team {
+  cursor: pointer;
+  left: 356px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 321px;
+}
+
+.navbar-link-pricing-cost {
+  cursor: pointer;
+  left: 654px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.navbar-link-gallery {
+  cursor: pointer;
+  left: 896px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 256px;
+}
+
+.navbar-link-contact-us {
+  cursor: pointer;
+  left: 1128px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 199px;
+}
+
+.nav.nav-1,
+.nav.nav-2 {
+  margin-top: unset;
+}
+

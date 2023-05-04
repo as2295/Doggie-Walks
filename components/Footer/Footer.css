@@ -1,0 +1,40 @@
+.footer {
+  align-items: center;
+  background-color: var(--biscay);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 129px;
+  justify-content: flex-start;
+  margin-right: 1.0px;
+  margin-top: 46px;
+  mix-blend-mode: normal;
+  padding: 0 19px;
+  position: relative;
+  width: 1439px;
+}
+
+.footer.footer-1 {
+  margin-top: 30px;
+}
+
+.footer.footer-2 {
+  margin-left: 1.0px;
+  margin-right: unset;
+  margin-top: 94px;
+}
+
+.footer.footer-3 {
+  margin-top: 42px;
+}
+
+.footer.footer-4 {
+  margin-right: unset;
+  margin-top: 48px;
+}
+
+.footer.footer-5 {
+  margin-right: unset;
+  margin-top: 57px;
+}
+

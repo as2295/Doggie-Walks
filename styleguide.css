@@ -1,0 +1,58 @@
+/* Creates text styling globally   */
+:root { 
+  --biscay: #133870;
+  --black: #000000;
+  --burnt-sienna: #eb7859;
+  --white: #ffffff;
+  --white-2: #ffffffcc;
+ 
+  --font-size-l: 17px;
+  --font-size-m: 16px;
+  --font-size-xl: 18px;
+  --font-size-xxl: 24px;
+  --font-size-xxxl: 28px;
+  --font-size-xxxxl: 36px;
+  --font-size-xxxxxl: 64px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-sansita: "Sansita", Helvetica;
+}
+.inter-bold-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-bold-biscay-64px {
+  color: var(--biscay);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-burnt-sienna-28px {
+  color: var(--burnt-sienna);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-white-36px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}

@@ -1,0 +1,268 @@
+.contact-us {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  gap: 32px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.overlap-group9 {
+  height: 1044px;
+  margin-left: -9px;
+  margin-top: -20px;
+  position: relative;
+  width: 1457px;
+}
+
+.gallery {
+  align-items: center;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  left: 9px;
+  position: absolute;
+  top: 20px;
+  width: 1440px;
+}
+
+.overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--biscay);
+  display: flex;
+  height: 83px;
+  justify-content: flex-end;
+  margin-right: 43.0px;
+  margin-top: 45px;
+  min-width: 1049px;
+  padding: 13px 51px;
+}
+
+.h6 {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 44px;
+  text-align: center;
+  width: 943px;
+}
+
+.overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 128px;
+  margin-right: 66.0px;
+  margin-top: 52px;
+  min-width: 582px;
+}
+
+.overlap-group4 {
+  align-items: flex-end;
+  background-color: var(--biscay);
+  display: flex;
+  height: 40px;
+  min-width: 197px;
+  padding: 1px 18px;
+}
+
+.p7,
+.p8,
+.p9 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 33px;
+  text-align: center;
+  width: 152px;
+}
+
+.overlap-group3 {
+  height: 40px;
+  position: relative;
+  width: 257px;
+}
+
+.container10 {
+  background-color: var(--biscay);
+  cursor: pointer;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 257px;
+}
+
+.container10:hover,
+.container11:hover,
+.container14:hover,
+.container15:hover {
+  transform: scale(1.1);
+}
+
+.text-input-1 {
+  background-color: transparent;
+  border: 0;
+  height: 15px;
+  left: 63px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  white-space: nowrap;
+  width: 156px;
+}
+
+.text-input-1::placeholder,
+.text-input-2::placeholder,
+.text-input-3::placeholder {
+  color: #ffffff99;
+}
+
+.overlap-group-container-1 {
+  align-items: flex-end;
+  display: flex;
+  gap: 128px;
+  margin-right: 66.0px;
+  margin-top: 50px;
+  min-width: 582px;
+}
+
+.overlap-group1 {
+  align-items: flex-end;
+  background-color: var(--biscay);
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  min-width: 197px;
+  padding: 1px 22px;
+}
+
+.overlap-group5 {
+  height: 41px;
+  position: relative;
+  width: 257px;
+}
+
+.container11 {
+  background-color: var(--biscay);
+  cursor: pointer;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  transition: all 0.2s ease;
+  width: 257px;
+}
+
+.text-input-2 {
+  background-color: transparent;
+  border: 0;
+  height: 27px;
+  left: 63px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 156px;
+}
+
+.overlap-group6 {
+  align-items: flex-end;
+  background-color: var(--biscay);
+  display: flex;
+  height: 40px;
+  margin-right: 121.0px;
+  margin-top: 52px;
+  min-width: 197px;
+  padding: 1px 21px;
+}
+
+.overlap-group7 {
+  height: 83px;
+  margin-right: 66.0px;
+  margin-top: 20px;
+  position: relative;
+  width: 582px;
+}
+
+.container14 {
+  background-color: var(--biscay);
+  cursor: pointer;
+  height: 83px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 582px;
+}
+
+.text-input-3 {
+  background-color: transparent;
+  border: 0;
+  height: 61px;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  width: 563px;
+}
+
+.overlap-group8 {
+  height: 68px;
+  margin-right: 120.0px;
+  margin-top: 21px;
+  position: relative;
+  width: 406px;
+}
+
+.container15 {
+  background-color: var(--biscay);
+  cursor: pointer;
+  height: 54px;
+  left: 78px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 250px;
+}
+
+.p10 {
+  color: var(--white);
+  cursor: pointer;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  transition: all 0.2s ease;
+  width: 406px;
+}
+
+.p10:hover {
+  color: #NaNNaNNaN
+}
+
+.contact-us-1 {
+  background-color: var(--white);
+  height: 1024px;
+  margin-top: -4px;
+  width: 1440px;
+}
+

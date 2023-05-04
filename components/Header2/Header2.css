@@ -1,0 +1,82 @@
+.header-6 {
+  align-items: flex-end;
+  display: flex;
+  height: 209px;
+  min-width: 1457px;
+}
+
+.overlap-group {
+  align-items: center;
+  background-color: var(--white-2);
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  gap: 237px;
+  height: 205px;
+  min-width: 1457px;
+  padding: 1px 109px;
+}
+
+.logo {
+  align-self: flex-end;
+  cursor: pointer;
+  height: 189px;
+  width: 283px;
+}
+
+.overlap-group1-1 {
+  height: 133px;
+  margin-top: 22.0px;
+  position: relative;
+  width: 697px;
+}
+
+.phonenumber {
+  left: 110px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 0;
+  width: 587px;
+}
+
+.slogan {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 74px;
+  width: 683px;
+}
+
+.header-6.header-7 .logo {
+  height: 190px;
+}
+
+.header-6.header-8 .overlap-group,
+.header-6.header-9 .overlap-group,
+.header-6.header-10 .overlap-group,
+.header-6.header-11 .overlap-group {
+  align-items: flex-start;
+  height: unset;
+  padding: 0 109px;
+}
+
+.header-6.header-8 .logo,
+.header-6.header-9 .logo,
+.header-6.header-10 .logo,
+.header-6.header-11 .logo {
+  align-self: unset;
+  height: 205px;
+  margin-top: -1px;
+}
+
+.header-6.header-8 .overlap-group1-1,
+.header-6.header-9 .overlap-group1-1,
+.header-6.header-10 .overlap-group1-1,
+.header-6.header-11 .overlap-group1-1 {
+  align-self: center;
+}
+
