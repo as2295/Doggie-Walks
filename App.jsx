@@ -178,7 +178,7 @@ const footer3Data = {
 {/* Gallery page created by calling in images from img folder  */}
 const galleryData = {
     gallery: "/img/gallery.png",
-    blacklab: "static/img/blacklab.png",
+    blacklab: "./static/img/blacklab.png",
     walker: "/img/walker-2.png",
     browndog: "/img/browndog.png",
     whitedog: "/img/whitedog.png",
